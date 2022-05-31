@@ -1,24 +1,3 @@
-body{
-    text-align: center;
-    background-color: lightgreen;
-    margin: 10rem;
-}
-input{
-    border-color: green;
-    border-radius: 8%;
-    border-width: 1px;
-}
-button{
-    background-color: green;
-    border-color: lightseagreen;
-    color: whitesmoke;
-    border-radius: 10%;
-
-}
-h3{
-    color: darkgreen;
-}
-p{
-    width: 70%;
-    text-align: left;
+.text{
+    color: pink;
 }
