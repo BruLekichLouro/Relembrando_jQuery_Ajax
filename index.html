@@ -16,8 +16,33 @@
             <div class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Digite o cep" id="cep" >
               <button class="btn btn-outline-success" onclick="consultaCep()" >Buscar</button>
-            </div> CONTINUAR EM APLICAÇÃO DE ESTILOS EM TABELAS
+            </div> 
       </nav>
+      <div class="container" id="texto">
+          <div class="row">
+              <h3> Cep</h3>
+          </div>
+          <div class="row" id="primeiraLinha">
+              <table class="table table-dark table-striped">
+                <tr class="table-dark">
+                    <td> Logradouro:</td>
+                    <td id="logradouro"> </td>
+                </tr>
+                <tr class="table-dark">
+                    <td> Bairro:</td>
+                    <td id="bairro"> </td>
+                </tr>
+                <tr class="table-dark">
+                    <td> Localidade:</td>
+                    <td id="localidade"> </td>
+                </tr>
+                <tr class="table-dark">
+                    <td> UF:</td>
+                    <td id="uf"> </td>
+                </tr>
+              </table>
+          </div>
+      </div>
 
    
 </body>

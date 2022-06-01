@@ -8,10 +8,13 @@ function consultaCep(){
         success: function(response) {
             console.log(response.logradouro);
             //document.getElementById("logradouro").innerHTML = response.logradouro;
-            //$("#logradouro").html(response.logradouro);//utilizando jQuery: pego o id
+            $("#logradouro").html(response.logradouro);//utilizando jQuery: pego o id
             // e passo para o html o que eu quero que ele mostre
             //document.getElementById("uf").innerHTML = response.uf;
+            $("#localidade").html(response.localidade);
             //document.getElementById("localidade").innerHTML = response.localidade;
+            $("#bairro").html(response.bairro);
+            $("#uf").html(response.uf);
         }
     });
 }
